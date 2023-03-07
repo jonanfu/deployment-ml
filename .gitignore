@@ -1,2 +1,6 @@
 venv
 /venv
+.pynb_checkpoints/
+*.json
+*.csv
+*.pkl
