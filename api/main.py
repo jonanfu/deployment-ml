@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.models import PredictionResponse, PredictionRequest
-from app.views import get_prediction
+from .app.models import PredictionResponse, PredictionRequest
+from .app.views import get_prediction
 
 app = FastAPI(docs_url='/')
 
