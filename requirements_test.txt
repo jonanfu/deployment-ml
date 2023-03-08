@@ -1,4 +1,10 @@
 -r api/requirements.txt
-
 pytest
+httpx
+fastapi
+uvicorn
+scikit-learn
+pandas
+gunicorn
+joblib
 httpx
